@@ -1,0 +1,143 @@
+.sp-button-container, .colorPicker{
+    display: none;
+}
+
+.design-wrapper {
+	display: none;
+}
+
+.cd_image_filters, .cd_color_type{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+    margin-top: 10px;
+}
+
+#cropImgContainer > img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+ 
+.cropper-view-box,
+.cropper-face {
+	border-radius: 50%;
+}
+
+#canvas-wrapper{
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+#cd_1, #cd_2, #cd_3, #cd_4{
+	display: inline-block;
+}
+
+#textForm, #uploadImage {
+	display: inline-block;
+}
+
+.img-container img {
+    max-width: 100%;
+}
+
+.tab-content{
+    display: inline-block;
+}
+
+.tab-pane {
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: block;
+    margin: 20px;
+    padding: 10px;
+}
+
+#adminControls{
+    display: none;
+}
+
+#leftAdminControls, #rightAdminControls {
+    display: inline-block;
+    margin-left: 100px;
+    vertical-align: top;
+}
+
+#topBtns{
+    margin-top: 10px; 
+    margin-left: 5px;
+}
+
+#finishBtn, #clearBtn {
+    height: 55px; 
+    width: 150px; 
+    background-color: red; 
+    border: none; 
+    font-size: 1.5em; 
+    font-weight: bold;
+}
+
+.close, .closeDesigner, #close-all, #close-clipart {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .closeDesigner:hover, #close-all:hover,
+.close:focus, .closeDesigner:hover, #close-all:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+} 
+
+.modal, .modalNoClickout, #CdModal {
+	display: none; 
+    position: fixed; 
+    z-index: 21; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 1s;
+    animation-name: fadeIn;
+    animation-duration: 1s
+}
+
+.modal, .modalNoClickout {
+    z-index: 22; 
+}
+#content{
+    margin: auto;
+}
+
+.modal-content, .main-modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+}
+
+.main-modal-content{
+    margin: auto;
+    width: 95%; 
+}
+
+.modal-content{
+    margin: 5% auto;
+    width: 80%; 
+}
